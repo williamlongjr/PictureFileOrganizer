@@ -38,9 +38,17 @@ namespace PictureFileOrganizer
 
             fileList.ForEach(_ =>
             {
-                FileInfo oFileInfo = new FileInfo(_.FullName);
-                oFileInfo.Attributes.
+                var creation = File.GetCreationTime(_.FullName);
+                //GetPathFromDestination(creation.Year.ToString(), creation.Month.ToString());
+                File.Move(_.FullName, Path.Combine(GetPathFromDestination(creation.Year.ToString(), creation.Month.ToString()).FullName, _.Name));
+
             });
         }
+
+        private DirectoryInfo GetPathFromDestination(string year, string month)
+        {
+            return Directory.CreateDirectory(Path.Combine(textBoxDestinationFolder.Text, year, month));
+        }
+
     }
 }
