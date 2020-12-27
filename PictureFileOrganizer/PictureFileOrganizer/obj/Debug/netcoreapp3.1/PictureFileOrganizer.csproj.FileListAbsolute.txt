@@ -1,0 +1,15 @@
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\bin\Debug\netcoreapp3.1\PictureFileOrganizer.exe
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\bin\Debug\netcoreapp3.1\PictureFileOrganizer.deps.json
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\bin\Debug\netcoreapp3.1\PictureFileOrganizer.runtimeconfig.json
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\bin\Debug\netcoreapp3.1\PictureFileOrganizer.runtimeconfig.dev.json
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\bin\Debug\netcoreapp3.1\PictureFileOrganizer.dll
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\bin\Debug\netcoreapp3.1\PictureFileOrganizer.pdb
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\obj\Debug\netcoreapp3.1\PictureFileOrganizer.csprojAssemblyReference.cache
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\obj\Debug\netcoreapp3.1\PictureFileOrganizer.FormMain.resources
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\obj\Debug\netcoreapp3.1\PictureFileOrganizer.csproj.GenerateResource.cache
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\obj\Debug\netcoreapp3.1\PictureFileOrganizer.AssemblyInfoInputs.cache
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\obj\Debug\netcoreapp3.1\PictureFileOrganizer.AssemblyInfo.cs
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\obj\Debug\netcoreapp3.1\PictureFileOrganizer.csproj.CoreCompileInputs.cache
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\obj\Debug\netcoreapp3.1\PictureFileOrganizer.dll
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\obj\Debug\netcoreapp3.1\PictureFileOrganizer.pdb
+C:\GitHub\PictureFileOrganizer\PictureFileOrganizer\PictureFileOrganizer\obj\Debug\netcoreapp3.1\PictureFileOrganizer.genruntimeconfig.cache
