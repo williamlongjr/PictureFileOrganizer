@@ -35,6 +35,7 @@ namespace PictureFileOrganizer
             this.buttonGetSourceFolder = new System.Windows.Forms.Button();
             this.buttonGetDestinationFolder = new System.Windows.Forms.Button();
             this.textBoxDestinationFolder = new System.Windows.Forms.TextBox();
+            this.listBoxErrors = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // buttonSortFiles
@@ -81,11 +82,24 @@ namespace PictureFileOrganizer
             this.textBoxDestinationFolder.Size = new System.Drawing.Size(443, 23);
             this.textBoxDestinationFolder.TabIndex = 3;
             // 
+            // listBoxErrors
+            // 
+            this.listBoxErrors.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBoxErrors.FormattingEnabled = true;
+            this.listBoxErrors.ItemHeight = 15;
+            this.listBoxErrors.Location = new System.Drawing.Point(102, 246);
+            this.listBoxErrors.Name = "listBoxErrors";
+            this.listBoxErrors.Size = new System.Drawing.Size(670, 349);
+            this.listBoxErrors.TabIndex = 5;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 621);
+            this.Controls.Add(this.listBoxErrors);
             this.Controls.Add(this.buttonGetDestinationFolder);
             this.Controls.Add(this.textBoxDestinationFolder);
             this.Controls.Add(this.buttonGetSourceFolder);
@@ -106,6 +120,7 @@ namespace PictureFileOrganizer
         private System.Windows.Forms.Button buttonGetSourceFolder;
         private System.Windows.Forms.Button buttonGetDestinationFolder;
         private System.Windows.Forms.TextBox textBoxDestinationFolder;
+        private System.Windows.Forms.ListBox listBoxErrors;
     }
 }
 
