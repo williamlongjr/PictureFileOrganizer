@@ -97,5 +97,15 @@ namespace PictureFileOrganizer
                 }
         }
 
+        private void buttonRemoveEmptyFolders_Click(object sender, EventArgs e)
+        {
+            var directoryInfo = new DirectoryInfo(textBoxSourceFolder.Text);
+            var directoryList = directoryInfo.GetDirectories("", SearchOption.AllDirectories).ToList();
+
+            directoryList.ForEach(_ =>
+            {
+                if (!_.GetFiles().Any() && !_.GetDirectories().Any() ) _.Delete();
+            });
+        }
     }
 }

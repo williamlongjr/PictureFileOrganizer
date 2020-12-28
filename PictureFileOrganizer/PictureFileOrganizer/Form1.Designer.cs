@@ -36,11 +36,12 @@ namespace PictureFileOrganizer
             this.buttonGetDestinationFolder = new System.Windows.Forms.Button();
             this.textBoxDestinationFolder = new System.Windows.Forms.TextBox();
             this.listBoxErrors = new System.Windows.Forms.ListBox();
+            this.buttonRemoveEmptyFolders = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonSortFiles
             // 
-            this.buttonSortFiles.Location = new System.Drawing.Point(167, 166);
+            this.buttonSortFiles.Location = new System.Drawing.Point(12, 66);
             this.buttonSortFiles.Name = "buttonSortFiles";
             this.buttonSortFiles.Size = new System.Drawing.Size(327, 59);
             this.buttonSortFiles.TabIndex = 0;
@@ -50,14 +51,14 @@ namespace PictureFileOrganizer
             // 
             // textBoxSourceFolder
             // 
-            this.textBoxSourceFolder.Location = new System.Drawing.Point(102, 72);
+            this.textBoxSourceFolder.Location = new System.Drawing.Point(12, 8);
             this.textBoxSourceFolder.Name = "textBoxSourceFolder";
             this.textBoxSourceFolder.Size = new System.Drawing.Size(443, 23);
             this.textBoxSourceFolder.TabIndex = 1;
             // 
             // buttonGetSourceFolder
             // 
-            this.buttonGetSourceFolder.Location = new System.Drawing.Point(552, 72);
+            this.buttonGetSourceFolder.Location = new System.Drawing.Point(462, 8);
             this.buttonGetSourceFolder.Name = "buttonGetSourceFolder";
             this.buttonGetSourceFolder.Size = new System.Drawing.Size(30, 23);
             this.buttonGetSourceFolder.TabIndex = 2;
@@ -67,7 +68,7 @@ namespace PictureFileOrganizer
             // 
             // buttonGetDestinationFolder
             // 
-            this.buttonGetDestinationFolder.Location = new System.Drawing.Point(552, 101);
+            this.buttonGetDestinationFolder.Location = new System.Drawing.Point(462, 37);
             this.buttonGetDestinationFolder.Name = "buttonGetDestinationFolder";
             this.buttonGetDestinationFolder.Size = new System.Drawing.Size(30, 23);
             this.buttonGetDestinationFolder.TabIndex = 4;
@@ -77,7 +78,7 @@ namespace PictureFileOrganizer
             // 
             // textBoxDestinationFolder
             // 
-            this.textBoxDestinationFolder.Location = new System.Drawing.Point(102, 101);
+            this.textBoxDestinationFolder.Location = new System.Drawing.Point(12, 37);
             this.textBoxDestinationFolder.Name = "textBoxDestinationFolder";
             this.textBoxDestinationFolder.Size = new System.Drawing.Size(443, 23);
             this.textBoxDestinationFolder.TabIndex = 3;
@@ -89,16 +90,27 @@ namespace PictureFileOrganizer
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxErrors.FormattingEnabled = true;
             this.listBoxErrors.ItemHeight = 15;
-            this.listBoxErrors.Location = new System.Drawing.Point(102, 246);
+            this.listBoxErrors.Location = new System.Drawing.Point(12, 136);
             this.listBoxErrors.Name = "listBoxErrors";
-            this.listBoxErrors.Size = new System.Drawing.Size(670, 349);
+            this.listBoxErrors.Size = new System.Drawing.Size(828, 469);
             this.listBoxErrors.TabIndex = 5;
+            // 
+            // buttonRemoveEmptyFolders
+            // 
+            this.buttonRemoveEmptyFolders.Location = new System.Drawing.Point(498, 7);
+            this.buttonRemoveEmptyFolders.Name = "buttonRemoveEmptyFolders";
+            this.buttonRemoveEmptyFolders.Size = new System.Drawing.Size(190, 23);
+            this.buttonRemoveEmptyFolders.TabIndex = 6;
+            this.buttonRemoveEmptyFolders.Text = "Remove Empty Folders";
+            this.buttonRemoveEmptyFolders.UseVisualStyleBackColor = true;
+            this.buttonRemoveEmptyFolders.Click += new System.EventHandler(this.buttonRemoveEmptyFolders_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 621);
+            this.ClientSize = new System.Drawing.Size(868, 639);
+            this.Controls.Add(this.buttonRemoveEmptyFolders);
             this.Controls.Add(this.listBoxErrors);
             this.Controls.Add(this.buttonGetDestinationFolder);
             this.Controls.Add(this.textBoxDestinationFolder);
@@ -121,6 +133,7 @@ namespace PictureFileOrganizer
         private System.Windows.Forms.Button buttonGetDestinationFolder;
         private System.Windows.Forms.TextBox textBoxDestinationFolder;
         private System.Windows.Forms.ListBox listBoxErrors;
+        private System.Windows.Forms.Button buttonRemoveEmptyFolders;
     }
 }
 
